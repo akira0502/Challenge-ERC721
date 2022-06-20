@@ -2,8 +2,9 @@
   "name": "node_transaction_recognize",
   "version": "1.0.0",
   "description": "Recognize transaction API using Web3 on Node",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
+    "start": "node index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
