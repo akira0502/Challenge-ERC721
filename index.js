@@ -35,7 +35,7 @@ async function main() {
 async function getLatestBlockInfo() {
     try {
         const blockNumber = await web3.eth.getBlockNumber();
-        const blockInfo = await web3.eth.getBlock(blockNumber);
+        const blockInfo = await web3.eth.getBlock(blockNumber); // you can replace 13821429 instead of blockNumber for the test.
         return {err:null, data: blockInfo};
     } catch(error) {
         return {err:error, data: null};
