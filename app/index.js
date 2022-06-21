@@ -51,7 +51,7 @@ async function getContractAddrIfCreation(txHash) {
             return {err:null, isContract: false, addr: null};
         }
     } catch(error) {
-        return {err:error, data: null, addr: null};
+        return {err:error, isContract: null, addr: null};
     }
 }
 
